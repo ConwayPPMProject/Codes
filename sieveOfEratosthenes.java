@@ -61,5 +61,6 @@ public class Main
     System.out.println("The remaining numbers, which are prime, are: ");
     System.out.println(master);
     System.out.println("The amount of steps it took to compute this list was: " + stepCounter);
+    System.out.println("Test");
     }
 }
