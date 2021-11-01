@@ -14,6 +14,8 @@ public class Main
             if(initial%i == 0)
             {
                 count++;
+                double factor2 = initial/i;
+                System.out.println("Factors: " + i + " and " + factor2);
                 break;
             }
         }
