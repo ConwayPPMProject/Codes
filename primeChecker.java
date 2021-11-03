@@ -15,6 +15,10 @@ public class Main
             {
                 count++;
                 double factor2 = initial/i;
+                    if(factor2<Integer.MAX_VALUE)
+                    {
+                        factor2 = (int)factor2;
+                    }
                 System.out.println("Factors: " + i + " and " + factor2);
                 break;
             }
