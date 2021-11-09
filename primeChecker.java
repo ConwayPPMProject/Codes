@@ -19,8 +19,10 @@ public class Main
                     {
                         int factor2p = (int) factor2;
                         System.out.println("Factors: " + i + " and " + factor2p);
+                    }else
+                    {
+                    System.out.println("Factors: " + i + " and " + factor2);
                     }
-                
                 break;
             }
         }
