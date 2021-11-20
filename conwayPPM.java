@@ -5,10 +5,9 @@ public class Main
     public static void main(String[] args) {
         int initial = 2;
         int count = 0;
-        int limit = 0;
         System.out.println("start");
         
-        while(limit<=100);
+        while(count<=100);
         {
             System.out.println("Machine start");
             
@@ -56,7 +55,8 @@ public class Main
                 initial = (initial * 55);
             }
             System.out.println(initial);
-            limit = 100;
+            count++;
+            System.out.println(count);
         }
         
     }
