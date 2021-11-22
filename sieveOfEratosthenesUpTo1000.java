@@ -79,6 +79,15 @@ public class Main
           stepCounter++;
          }
         System.out.println(mult13);
+     //multiples of 17
+    System.out.println("Multiples of 17: ");
+      for(int x = 1; x < 58; x++) 
+         {
+          int multiples17 = 17*(x+1);
+          mult17.add(multiples17);
+          stepCounter++;
+         }
+        System.out.println(mult17);
     //multiples of 19
     System.out.println("Multiples of 19: ");
       for(int x = 1; x < 52; x++) 
