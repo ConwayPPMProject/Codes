@@ -70,7 +70,7 @@ public class Main
           stepCounter++;
          }
         System.out.println(mult11);
-    //multiples of 7
+    //multiples of 13
     System.out.println("Multiples of 13: ");
       for(int x = 1; x < 76; x++) 
          {
