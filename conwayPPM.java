@@ -71,7 +71,7 @@ public class Main
             }
         //print statements
         int output = (int)initial;
-        System.out.println("-------------------\nOutput: " + output + "\nRevolution: " + count);
+        System.out.println("--------------------\nOutput: " + output + "\nRevolution: " + count);
         
         //pow2 checker
     }
