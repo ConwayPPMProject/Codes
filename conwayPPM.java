@@ -1,13 +1,19 @@
+import java.util.Scanner;
+import java.util.ArrayList;
 public class Main
 {
     public static void main(String[] args) {
         //acquisitions
         double initial = 2;
         int count = 0;
-       
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Generate numbers under: ");
+        int stopper = scan.nextInt();
+        int stoppercheck = 0;
+        ArrayList<Integer> primes = new ArrayList<Integer>();
         //machine loop
         System.out.println("start");
-           while (count < 100)
+           while (stoppercheck+1<stopper)
             {
                 if(((initial * 17) / 91) % 1 == 0)
                 {
@@ -76,8 +82,12 @@ public class Main
                         if(Math.pow(2.0, o) == output)
                     {
                         System.out.println("power of 2: " + o);
+                        primes.add(o);
+                        stoppercheck = o;
+                        
                     }
                 }
             }
+            System.out.println("The prime numbers under " + stopper + " are: " + primes);
     }
     }
