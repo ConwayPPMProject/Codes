@@ -1,4 +1,6 @@
+//scanner to get input, will tell when to stop
 import java.util.Scanner;
+//arraylist to hold output of the machine.
 import java.util.ArrayList;
 public class Main
 {
@@ -6,15 +8,20 @@ public class Main
         //acquisitions
         double initial = 2;
         int count = 0;
+        //asks user for number under which to generate primes for
         Scanner scan = new Scanner(System.in);
         System.out.println("Generate numbers under: ");
+        //these variables tell the machine when to stop
         int stopper = scan.nextInt();
         int stoppercheck = 0;
+        //this stores the primes generated
         ArrayList<Integer> primes = new ArrayList<Integer>();
         //machine loop
         System.out.println("start");
+        //this stops the machine when it hits the prime before the inputted number
            while (stoppercheck+1<stopper)
             {
+               //these statements make it so that if the operations produce an integer, it sets initial equal to it as well as prints what step it happened on. 
                 if(((initial * 17) / 91) % 1 == 0)
                 {
                     initial = (initial * 17) / 91;
@@ -72,15 +79,18 @@ public class Main
                     initial = (initial * 55);
                     System.out.println("Step: 14");
                 }
-                count++;
+               //this counts the revolutions 
+               count++;
                 //print statements
                 int output = (int)initial;
                 System.out.println("--------------------\nOutput: " + output + "\nRevolution: " + count);
                 //pow2 checker
                 for (int o = 0; o<output; o++)
+                    //checks 2^every number under the machine's output. If it equals an integer it means that 2 to the output is equal to the machine output. This output will be the prime number. 
                     {
                         if(Math.pow(2.0, o) == output)
                     {
+                        //this prints the power of 2, which is the prime number, for that step. It also adds the prime number to the arraylist from before. 
                         System.out.println("power of 2: " + o);
                         primes.add(o);
                         stoppercheck = o;
@@ -88,6 +98,7 @@ public class Main
                     }
                 }
             }
-            System.out.println("The prime numbers under " + stopper + " are: " + primes);
+        //final print statement    
+        System.out.println("The prime numbers under " + stopper + " are: " + primes);
     }
     }
