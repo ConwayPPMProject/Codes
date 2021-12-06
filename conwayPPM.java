@@ -118,7 +118,8 @@ public class Main
                         if(Math.pow(2.0, o) == output)
                     {
                         
-                            //this prints the power of 2, which is the prime number, for that step. It also adds the prime number to the arraylist from before. 
+                        //this prints the power of 2, which is the prime number, for that step. It also adds the prime number to the arraylist from before. 
+                        countb++;
                         System.out.println("power of 2: " + o);
                         primes.add(o);
                         stoppercheck = o;
