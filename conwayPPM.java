@@ -7,7 +7,7 @@ public class Main
 {
     public static void main(String[] args) {
         
-        //acquisitions
+        //initializations: initial is the number that goes into the machine at the start of the revolution. Count counts the revolutions of the machine, and countb counts the individual steps. 
         double initial = 2;
         int count = 0;
         int countb = 0; 
