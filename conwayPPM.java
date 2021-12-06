@@ -30,7 +30,7 @@ public class Main
            while (stoppercheck+1<stopper)
             {
                
-               //these statements make it so that if the operations produce an integer, it sets initial equal to it as well as prints what step it happened on. 
+               //these statements make it so that if the operations produce an integer, it sets initial equal to it as well as prints what step it happened on. These are the 14 numbers in the Conway Machine.
                 if(((initial * 17) / 91) % 1 == 0)
                 {
                     initial = (initial * 17) / 91;
