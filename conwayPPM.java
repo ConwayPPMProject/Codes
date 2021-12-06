@@ -35,72 +35,72 @@ public class Main
                 {
                     initial = (initial * 17) / 91;
                     System.out.println("Step: 1");
-                    countb =+ 1;
+                    countb = countb + 1;
                 } else if(((initial * 78) / 85) % 1 == 0)
                 {
                     initial = (initial * 78) / 85;
                     System.out.println("Step: 2");
-                    countb += 2;
+                    countb = countb + 2;
                 } else if(((initial * 19) / 51) % 1 == 0)
                 {
                     initial = (initial * 19) / 51;
                     System.out.println("Step: 3");
-                    countb += 3;
+                    countb = countb + 3;
                 } else if(((initial * 23) / 38) % 1 == 0)
                 {
                     initial = (initial * 23) / 38;
                     System.out.println("Step: 4");
-                    countb += 4;
+                    countb = countb + 4;
                 } else if(((initial * 29) / 33) % 1 == 0)
                 {
                     initial = (initial * 29) / 33;
                     System.out.println("Step: 5");
-                    countb += 5;
+                    countb = countb + 5;
                 } else if(((initial * 77) / 29) % 1 == 0)
                 {
                     initial = (initial * 77) / 29;
                     System.out.println("Step: 6");
-                    countb += 6;
+                    countb = countb + 6;
                 } else if(((initial * 95) / 23) % 1 == 0)
                 {
                     initial = (initial * 95) / 23;
                     System.out.println("Step: 7");
-                    countb += 7;
+                    countb = countb + 7;
                 } else if(((initial * 77) / 19) % 1 ==0)
                 {
                     initial = (initial * 77) / 19;
                     System.out.println("Step: 8");
-                    countb += 8;
+                    countb = countb + 8;
                 } else if(((initial * 1) / 17) % 1 == 0)
                 {
                     initial = initial / 17;
                     System.out.println("Step: 9");
-                    countb += 9;
+                    countb = countb + 9;
                 } else if(((initial * 11) / 13) % 1 == 0)
                 {
                     initial = (initial * 11) / 13;
                     System.out.println("Step: 10");
-                    countb += 10;
+                    countb = countb + 10;
                 } else if(((initial * 13) / 11) % 1 == 0)
                 {
                     initial = (initial * 13) / 11;
                     System.out.println("Step: 11");
-                    countb += 11;
+                    countb = countb + 11;
                 } else if(((initial * 15) / 14) % 1 == 0)
                 {
                     initial = (initial * 15) / 14;
                     System.out.println("Step: 12");
-                    countb += 12;
+                    countb = countb + 12;
                 } else if(((initial * 15) / 2) % 1 ==0)
                 {
                     initial = (initial * 15) / 2;
                     System.out.println("Step: 13");
-                    countb += 13;
+                    countb = countb + 13;
                 } else if(((initial * 55) / 1) % 1 ==0)
                 {
                     initial = (initial * 55);
                     System.out.println("Step: 14");
-                    countb += 14;
+                    countb = countb + 14;
                 }
                
                //this counts the revolutions 
@@ -126,7 +126,7 @@ public class Main
                     }
                 }
             }
-        //final print statement    
-        System.out.println("The prime numbers under " + stopper + " are: " + primes);
+        //final print statements 
+        System.out.println("The prime numbers under " + stopper + " are: " + primes + ", this took " + countb + " steps");
     }
     }
