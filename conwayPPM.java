@@ -115,6 +115,7 @@ public class Main
                     
                     //checks 2^every number under the machine's output. If it equals an integer it means that 2 to the output is equal to the machine output. This output will be the prime number. 
                     {
+                        countb++
                         if(Math.pow(2.0, o) == output)
                     {
                         
