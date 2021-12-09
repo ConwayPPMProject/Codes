@@ -11,6 +11,7 @@ public class Main
         double initial = 2;
         int count = 0;
         int countb = 0; 
+        double o = 0;
         
         //asks user for number under which to generate primes for
         Scanner scan = new Scanner(System.in);
@@ -111,24 +112,15 @@ public class Main
                 System.out.println("--------------------\nOutput: " + output + "\nRevolution: " + count + "\nOperations: " + countb);
                 
                //pow2 checker
-                for (int o = 0; o<output; o++)
-                    
-                    //checks 2^every number under the machine's output. If it equals an integer it means that 2 to the output is equal to the machine output. This output will be the prime number. 
-                    {
-                        countb++
-                        if(Math.pow(2.0, o) == output)
-                    {
-                        
-                        //this prints the power of 2, which is the prime number, for that step. It also adds the prime number to the arraylist from before. 
-                        countb++;
-                        System.out.println("power of 2: " + o);
-                        primes.add(o);
-                        stoppercheck = o;
-                        
-                    }
-                }
+                        if((Math.log10(output))/(Math.log10(2)) % 1 == 0)
+                        {
+                            o = (Math.log10(output))/(Math.log10(2));
+                            System.out.println("power of 2: " + o);
+                            int p = (int) o;
+                            primes.add(p);
+                            stoppercheck = (int) o;
+                        }
             }
-        //final print statements 
         System.out.println("The prime numbers under " + stopper + " are: " + primes + ", this took " + countb + " steps");
     }
     }
