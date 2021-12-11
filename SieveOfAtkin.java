@@ -2,9 +2,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class SieveOfAtkin {
-//private static int limit = 1000;
-//private static boolean[] sieve = new boolean[limit + 1];
-//private static int limitSqrt = (int)Math.sqrt((double)limit);
 private static int count = 0;
 
 public static void main(String[] args) {
