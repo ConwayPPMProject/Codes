@@ -3,7 +3,7 @@ class SieveOfEratosthenes
 {
     void sieveOfEratosthenes(int n)
     {
-        // Create a boolean array "prime[0..n]" and initialize all as true. If I is ever not prime it will be false, otherwise turn to true. 
+        // Create a boolean array "prime[0..n]" and initialize all as true. If I is ever not prime it will be false, otherwise stay true. 
         int count = 0;
         boolean prime[] = new boolean[n+1];
         for(int i=0;i<=n;i++)
@@ -28,6 +28,7 @@ class SieveOfEratosthenes
         // Print prime numbers
         for(int i = 2; i <= n; i++)
         {
+            //prints all values in which i was changed to true from false. 
             if(prime[i] == true)
                 System.out.print(i + " ");
         }
