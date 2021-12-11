@@ -31,7 +31,7 @@ class SieveOfEratosthenes
             if(prime[i] == true)
                 System.out.print(i + " ");
         }
-         System.out.println("\nThis took " + count + " steps");
+         System.out.println("\nThis took " + count + " steps.");
     }  
      
     public static void main(String args[])
