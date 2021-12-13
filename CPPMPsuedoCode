@@ -1,0 +1,81 @@
+Import Scanner Pacakge
+Import Arrays
+
+Public Class Main
+Main Method {
+
+(set starting conditions for first cycle)
+First Input = 2 
+Counter = 0 
+
+Print "Generate numbers under: "
+
+Machine stops when the inputted number is reached
+
+ArrayList.Integer. = Store Generated Numbers
+
+Print "Start" (To indicate when machine has started generating)
+
+While Loop (Stops looping when the number is the inputted number) { 
+
+If (First input * 17/91 = a whole number){
+Print "Step 1"
+Add 1 to the counter }
+
+else if (First * 78/85 = a whole number){
+Print "Step 2"
+Add 2 to the counter }
+
+else if (First input * 19/51 = a whole number){
+Print "Step 3"
+Add 3 to the counter }
+
+else if (First input * 23/38 = a whole number){
+Print "Step 4"
+Add 4 to the counter }
+
+else if (First input * 29/33 = a whole number){
+Print "Step 5"
+Add 5 to the counter }
+
+else if (First input * 77/29 = a whole number){
+Print "Step 6"
+Add 6 to the counter }
+
+else if (First input * 95/23 = a whole number){
+Print "Step 7"
+Add 7 to the counter }
+
+else if (First input * 77/19 = a whole number){
+Print "Step 8"
+Add 8 to the counter }
+
+else if (First input * 1/17 = a whole number){
+Print "Step 9"
+Add 9 to the counter }
+
+else if (First input * 11/13 = a whole number){
+Print "Step 10"
+Add 10 to the counter }
+
+else if (First input * 13/11 = a whole number){
+Print "Step 11"
+Add 11 to the counter }
+
+else if (First input * 15/14 = a whole number){
+Print "Step 12"
+Add 12 to the counter }
+
+else if (First input * 15/2 = a whole number){
+Print "Step 13"
+Add 13 to the counter }
+
+else if (First input * 55/1 = a whole number){
+Print "Step 14"
+Add 14 to the counter }
+
+Add one to total count to see how many cycles to get to input number
+
+Print "Prime number, #OfCycles, #OfOperations
+
+Print "The number under 'inputnumber' are 'arraylist' this took '#OfOperations
