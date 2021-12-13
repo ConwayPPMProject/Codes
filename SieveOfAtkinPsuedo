@@ -1,0 +1,9 @@
+Import Arraysettings
+Import Scanner
+
+Public Class SieveOfAtkin {
+Public Static Int Count = 0
+
+Main Method {
+Print "Enter number to generate primes under"
+Scans User Input 
